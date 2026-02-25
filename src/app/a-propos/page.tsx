@@ -8,7 +8,7 @@ import { clientConfig } from "@/config/client.config";
 
 export const metadata: Metadata = {
   title: `À Propos — ${clientConfig.NOM_ENTREPRISE}`,
-  description: `Découvrez l'histoire de ${clientConfig.NOM_ENTREPRISE}, transporteur routier de fret basé à ${clientConfig.VILLE} depuis ${clientConfig.ANNEE_CREATION}. Rencontrez notre équipe et découvrez nos valeurs.`,
+  description: `Découvrez l'histoire de ${clientConfig.NOM_ENTREPRISE}, déménageur professionnel à ${clientConfig.VILLE} et ${clientConfig.COMMUNE_1}. Rencontrez notre équipe et découvrez nos valeurs.`,
 };
 
 export default function AProposPage() {
@@ -21,7 +21,7 @@ export default function AProposPage() {
             <FadeUp>
               <p className="text-xs font-semibold tracking-[0.2em] uppercase text-accent-400 mb-4">Notre histoire</p>
               <h1 className="font-heading text-4xl md:text-5xl font-bold text-white mb-6">
-                25 ans au service du transport routier normand
+                Votre déménageur de confiance à {clientConfig.VILLE} &amp; {clientConfig.COMMUNE_1}
               </h1>
               <p className="text-neutral-300 leading-relaxed mb-8">
                 {company.description}
@@ -53,9 +53,9 @@ export default function AProposPage() {
           </FadeUp>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
             {[
-              { title: "Fiabilité", desc: "Chaque livraison est un engagement. Nous planifions, coordonnons et exécutons avec la même rigueur que pour notre premier client.", icon: "🏆" },
-              { title: "Transparence", desc: "Un devis est un contrat. Nous ne pratiquons aucuns frais cachés et informons proactivement sur chaque étape de l'acheminement.", icon: "🤝" },
-              { title: "Proximité", desc: `Ancrés en ${clientConfig.REGION} depuis ${clientConfig.ANNEE_CREATION}, nous connaissons le tissu économique local et cultivons des relations durables avec nos clients.`, icon: "🚛" },
+              { title: "Soin", desc: "Chaque déménagement est unique. Nous traitons vos affaires avec le même soin que si c'étaient les nôtres, du premier carton au dernier meuble.", icon: "🏆" },
+              { title: "Transparence", desc: "Un devis clair et respecté, sans frais cachés. Nous vous informons à chaque étape pour un déménagement sans mauvaise surprise.", icon: "🤝" },
+              { title: "Proximité", desc: `Implantés à ${clientConfig.VILLE} depuis ${clientConfig.ANNEE_CREATION}, nous connaissons chaque quartier de l'agglomération lyonnaise et cultivons des relations durables avec nos clients.`, icon: "📦" },
             ].map((v, i) => (
               <FadeUp key={v.title} delay={i * 0.1}>
                 <div className="text-center p-8 rounded-2xl bg-primary-50 border border-primary-100">
@@ -110,9 +110,9 @@ export default function AProposPage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             {[
-              { value: "1999", label: "Année de fondation" },
-              { value: "20+", label: "Collaborateurs" },
-              { value: "15+", label: "Pays desservis" },
+              { value: clientConfig.ANNEE_CREATION, label: "Année de création" },
+              { value: "1 500+", label: "Déménagements réalisés" },
+              { value: "100%", label: "Devis gratuits" },
               { value: "98%", label: "Clients satisfaits" },
             ].map((stat, i) => (
               <FadeUp key={stat.label} delay={i * 0.1}>

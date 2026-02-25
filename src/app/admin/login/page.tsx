@@ -51,10 +51,10 @@ export default function AdminLoginPage() {
               strokeLinecap="round"
               strokeLinejoin="round"
             >
-              <path d="M1 3h15v13H1z" />
-              <path d="M16 8h4l3 3v5h-7V8z" />
-              <circle cx="5.5" cy="18.5" r="2.5" />
-              <circle cx="18.5" cy="18.5" r="2.5" />
+              <path d="M21 8l-2-3H5L3 8" />
+              <path d="M3 8v10a2 2 0 002 2h14a2 2 0 002-2V8" />
+              <path d="M3 8h18" />
+              <path d="M10 12h4" />
             </svg>
           </div>
           <h1 className="font-heading text-2xl font-bold text-white">

@@ -14,7 +14,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "7 min",
     date: "2025-01-20",
     featuredImage: "/images/blog/checklist-demenagement.png",
-    author: "Céline Faure",
+    author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}`,
     tags: ["checklist", "préparation", "organisation", "conseils", "déménagement"],
     content: [
       {
@@ -245,7 +245,7 @@ export const blogPosts: BlogPost[] = [
     readTime: "6 min",
     date: "2024-12-10",
     featuredImage: "/images/blog/garde-meuble.png",
-    author: "Céline Faure",
+    author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}`,
     tags: ["garde-meuble", "stockage", "entre-deux", "travaux", "conseils"],
     content: [
       {
