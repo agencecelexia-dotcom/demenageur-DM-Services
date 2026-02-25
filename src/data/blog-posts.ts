@@ -6,323 +6,330 @@ const c = clientConfig;
 export const blogPosts: BlogPost[] = [
   {
     id: "b1",
-    slug: "bien-preparer-envoi-fret",
-    title: "Comment bien préparer votre envoi de fret routier",
+    slug: "bien-preparer-son-demenagement",
+    title: "Comment bien préparer son déménagement : la checklist complète",
     excerpt:
-      "Conditionnement, documents, délais : tout ce que vous devez prévoir en amont pour que votre expédition se déroule sans accroc.",
+      "Cartons, tri, administratif, fournisseurs : tout ce qu'il faut anticiper pour un déménagement sans stress.",
     category: "Conseils",
     readTime: "7 min",
     date: "2025-01-20",
     featuredImage: "/images/blog/checklist-demenagement.png",
-    author: "Isabelle Renard",
-    tags: ["fret", "expédition", "conditionnement", "conseils", "transport"],
+    author: "Céline Faure",
+    tags: ["checklist", "préparation", "organisation", "conseils", "déménagement"],
     content: [
       {
         type: "paragraph",
         content:
-          "Un transport routier réussi commence bien avant que le camion arrive à votre porte. La préparation de votre envoi conditionne à la fois la sécurité de vos marchandises et le respect des délais. Voici les étapes incontournables.",
+          "Un déménagement réussi se prépare plusieurs semaines à l'avance. Plus vous anticipez, plus le jour J sera serein. Voici notre checklist complète pour ne rien oublier.",
       },
       {
         type: "h2",
-        content: "1. Conditionner correctement vos marchandises",
+        content: "1. Deux mois avant : le tri et les démarches",
       },
       {
         type: "list",
         items: [
-          "Utilisez des palettes EUR conformes (1,20 m × 0,80 m) en bon état",
-          "Filmez chaque palette avec un film étirable résistant",
-          "Protégez les angles avec des cornières en carton ou plastique",
-          "Ne dépassez pas 1,20 m de hauteur par palette pour la stabilité",
-          "Indiquez le sens de transport (flèches haut/bas) sur chaque colis",
+          "Faites le tri dans chaque pièce : donnez, vendez ou jetez ce qui ne vous sert plus",
+          "Demandez plusieurs devis de déménagement et comparez",
+          "Prévenez votre propriétaire (préavis de 1 à 3 mois selon le bail)",
+          "Inscrivez les enfants dans leur nouvelle école",
+          "Commencez à réunir les cartons et le matériel d'emballage",
         ],
       },
       {
         type: "h2",
-        content: "2. Préparer les documents obligatoires",
+        content: "2. Deux semaines avant : les fournisseurs et l'administratif",
       },
       {
         type: "list",
         items: [
-          "La lettre de voiture (CMR ou LV nationale) correctement remplie",
-          "Le bon de livraison avec quantités et poids exacts",
-          "Les fiches de données de sécurité pour les matières dangereuses (ADR)",
-          "Le bordereau douanier pour les envois hors UE",
-          "Le certificat d'assurance marchandises si nécessaire",
+          "Transférez vos contrats : électricité, gaz, internet, assurance habitation",
+          "Faites suivre votre courrier (service La Poste)",
+          "Prévenez votre employeur, la CAF, la CPAM, les impôts",
+          "Réservez un emplacement de stationnement pour le camion si nécessaire",
+          "Emballez les pièces que vous utilisez le moins en premier",
         ],
       },
       {
         type: "h2",
-        content: "3. Communiquer les bonnes informations",
+        content: "3. Le jour J : les bons réflexes",
       },
       {
         type: "paragraph",
         content:
-          "Indiquez-nous systématiquement le poids exact (non estimé), les dimensions réelles, la nature des marchandises, et les contraintes de livraison (horaires imposés, quai requis, hayon nécessaire). Ces informations permettent d'affecter le bon véhicule et d'optimiser le planning.",
+          "Préparez un carton « essentiel » avec les documents importants, les chargeurs, une trousse de toilette et de quoi grignoter. Faites les relevés de compteur au départ et à l'arrivée. Et surtout, faites confiance à votre équipe de déménageurs !",
       },
       {
         type: "quote",
         content:
-          "Un colis bien préparé est un colis qui arrive intact. On peut rattraper un retard, on ne répare pas une marchandise abîmée.",
-        author: "Isabelle Renard, Responsable Exploitation",
+          "Le secret d'un déménagement serein, c'est l'anticipation. Plus vous préparez en amont, moins il y a de stress le jour J.",
+        author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}, Gérante de ${c.NOM_ENTREPRISE}`,
       },
     ],
   },
   {
     id: "b2",
-    slug: "transport-exceptionnel-reglementation",
-    title: `Transport exceptionnel : autorisations et réglementation en ${c.REGION}`,
+    slug: "emballer-objets-fragiles",
+    title: "Comment emballer vos objets fragiles pour un déménagement",
     excerpt:
-      `Convoi exceptionnel, transport hors gabarit : quelles démarches, quels délais et quels itinéraires sont à prévoir pour vos charges lourdes en ${c.DEPARTEMENT} ?`,
-    category: "Réglementation",
-    readTime: "8 min",
+      "Vaisselle, miroirs, écrans, objets de décoration : les techniques pro pour protéger vos biens les plus délicats.",
+    category: "Conseils",
+    readTime: "6 min",
     date: "2025-02-03",
     featuredImage: "/images/blog/emballage-fragiles.png",
-    author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}`,
-    tags: ["transport-exceptionnel", "convoi", "réglementation", "hors-gabarit"],
+    author: "Alexandre Morin",
+    tags: ["emballage", "fragile", "protection", "vaisselle", "conseils"],
     content: [
       {
         type: "paragraph",
         content:
-          "Dès lors qu'un véhicule dépasse les limites légales en poids (44 t avec autorisation), longueur (18,75 m) ou gabarit (2,55 m de large), vous entrez dans le domaine du transport exceptionnel. Une réglementation stricte s'applique, avec des autorisations obligatoires.",
+          "Les objets fragiles sont la hantise de tout déménagement. Pourtant, avec les bonnes techniques et le bon matériel, vous pouvez tout transporter sans casse. Voici nos conseils de professionnels.",
       },
       {
         type: "h2",
-        content: "Les seuils qui déclenchent le transport exceptionnel",
+        content: "Le matériel indispensable",
       },
       {
         type: "list",
         items: [
-          "Poids total supérieur à 48 t (catégorie 1) ou 72 t (catégorie 2)",
-          "Largeur supérieure à 3 m",
-          "Hauteur totale supérieure à 4,30 m",
-          "Longueur supérieure à 25 m",
-          "Porte-à-faux avant ou arrière dépassant certains seuils",
+          "Papier bulle (en rouleau, pas en feuilles découpées)",
+          "Papier journal ou papier kraft pour le calage",
+          "Cartons renforcés spécial vaisselle (avec croisillons)",
+          "Ruban adhésif large et résistant",
+          "Feutres pour l'étiquetage « FRAGILE »",
         ],
       },
       {
         type: "h2",
-        content: "La procédure d'autorisation",
+        content: "Les règles d'or de l'emballage fragile",
       },
       {
-        type: "paragraph",
+        type: "list",
+        items: [
+          "Emballer chaque pièce individuellement — jamais deux objets en contact direct",
+          "Remplir tous les vides dans les cartons avec du papier froissé",
+          "Placer les objets lourds en bas, les légers en haut",
+          "Ne jamais dépasser 15 kg par carton de vaisselle",
+          "Indiquer « FRAGILE » et « HAUT/BAS » sur chaque carton",
+          "Les assiettes se transportent debout, comme des disques vinyle",
+        ],
+      },
+      {
+        type: "quote",
         content:
-          `L'autorisation de transport exceptionnel est délivrée par les préfectures de chaque département traversé. Elle doit être demandée au minimum 5 jours ouvrés avant le départ (jusqu'à 30 jours pour les catégories 3 et 4). En ${c.REGION}, la DREAL coordonne l'instruction des dossiers pour les itinéraires les plus complexes.`,
-      },
-      {
-        type: "h2",
-        content: `Itinéraires préférentiels en ${c.DEPARTEMENT}`,
-      },
-      {
-        type: "list",
-        items: [
-          "Axes autoroutiers principaux : autorisés pour les catégories 1 et 2, sur autorisation pour les catégories 3+",
-          "Axes secondaires : itinéraires fréquemment utilisés, restrictions possibles la nuit",
-          "Routes nationales : vérifier les passages sous pont et gabarits limités",
-          "Alternatives recommandées pour les gabarits très larges",
-          `Zone portuaire de ${c.VILLE} : protocole spécifique, coordonnez-vous avec le terminal`,
-        ],
+          "Le carton doit être tellement bien calé que rien ne bouge quand on le secoue. Si ça bouge, il faut rajouter du papier.",
+        author: "Alexandre Morin, Chef d'Équipe",
       },
     ],
   },
   {
     id: "b3",
-    slug: "axes-routiers-fret-regional",
-    title: `Axes routiers principaux : le réseau incontournable du fret en ${c.REGION}`,
+    slug: "demenager-a-villeurbanne-guide",
+    title: `Déménager à ${c.VILLE} : le guide pratique quartier par quartier`,
     excerpt:
-      "Trafic, travaux, restrictions de circulation : tout ce que les chargeurs et transporteurs doivent savoir sur les axes régionaux pour optimiser leurs flux.",
-    category: "Infrastructure",
-    readTime: "6 min",
+      `Stationnement, accès, réglementation : tout ce qu'il faut savoir pour déménager sereinement dans les quartiers de ${c.VILLE}.`,
+    category: "Guide",
+    readTime: "8 min",
     date: "2025-02-17",
     featuredImage: "/images/blog/demenagement-paris.png",
-    author: c.FONDATEUR_NOM,
-    tags: ["transport", "logistique", "infrastructure"],
+    author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}`,
+    tags: ["Villeurbanne", "quartiers", "stationnement", "guide", "local"],
     content: [
       {
         type: "paragraph",
         content:
-          `Les axes autoroutiers principaux sont la colonne vertébrale du transport routier dans notre région. Ils concentrent des enjeux considérables pour les transporteurs de ${c.REGION}.`,
+          `${c.VILLE} est une ville dense et dynamique, collée à ${c.COMMUNE_1}. Chaque quartier a ses particularités pour le déménagement : accès, stationnement, étroitesse des rues. Voici notre guide pratique.`,
       },
       {
         type: "h2",
-        content: "Les points de vigilance sur les axes principaux",
+        content: "Gratte-Ciel et Charpennes",
       },
       {
         type: "list",
         items: [
-          "Passages sous tunnels : gabarits limités, restrictions pour les TMD le week-end",
-          "Traversées urbaines : bouchons récurrents aux heures de pointe",
-          "Péages : goulots d'étranglement en période estivale",
-          "Échangeurs principaux : points de divergence critiques, prévoir les reports",
-          "Zones de travaux récurrents : prévoir des détours",
+          "Stationnement très réglementé — réservez un emplacement en mairie 15 jours avant",
+          "Immeubles anciens avec escaliers étroits : prévoir un monte-meuble si nécessaire",
+          "Accès limité aux gros camions dans certaines rues piétonnes",
+          "Proximité métro : attention aux horaires de livraison",
+          "Quartier très passant : privilégiez les créneaux matinaux (6h-9h)",
         ],
       },
       {
         type: "h2",
-        content: "Nos conseils pour optimiser vos temps de transit",
+        content: "Tonkin, Cusset et Bonnevay",
+      },
+      {
+        type: "list",
+        items: [
+          "Accès plus facile pour les camions de grande taille",
+          "Résidences avec parkings souterrains : vérifier la hauteur de passage",
+          "Quartiers en rénovation : attention aux déviations et travaux",
+          "Créneaux recommandés : éviter les heures de pointe scolaire",
+        ],
+      },
+      {
+        type: "h2",
+        content: "Nos conseils pour un déménagement réussi à Villeurbanne",
       },
       {
         type: "paragraph",
         content:
-          `Chez ${c.NOM_ENTREPRISE}, nos chauffeurs connaissent les axes régionaux par cœur après ${c.ANNEES_EXPERIENCE} ans de service. Nous privilégions les départs matinaux entre 4h et 6h pour les livraisons en agglomération, et entre 10h et 14h pour éviter les pointes de trafic en milieu de journée.`,
+          `Chez ${c.NOM_ENTREPRISE}, nous connaissons ${c.VILLE} par cœur. Nous vous accompagnons dans les démarches de réservation de stationnement, le choix du créneau horaire optimal et l'adaptation du matériel (monte-meuble, camion adapté) à votre adresse. Contactez-nous pour un devis gratuit.`,
       },
       {
         type: "quote",
         content:
-          "Sur les grands axes, une heure de marge au départ, c'est souvent deux heures de retard évitées à l'arrivée.",
-        author: `${c.FONDATEUR_NOM}, Fondateur`,
+          `À ${c.VILLE}, un bon déménagement commence par une bonne visite technique. On anticipe tout sur place : accès, étages, stationnement.`,
+        author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}, Gérante`,
       },
     ],
   },
   {
     id: "b4",
-    slug: "affretement-vs-commissionnement",
-    title: "Affrètement ou commissionnement de transport : quelle différence ?",
+    slug: "demenagement-comment-choisir-son-demenageur",
+    title: "Comment choisir son déménageur : 7 critères essentiels",
     excerpt:
-      "Deux prestations souvent confondues, mais des responsabilités très différentes. Comprendre laquelle vous convient pour mieux choisir votre prestataire.",
+      "Assurance, devis, avis clients, matériel — les questions à se poser avant de confier son déménagement à un professionnel.",
     category: "Guide",
-    readTime: "9 min",
+    readTime: "7 min",
     date: "2025-01-08",
     featuredImage: "/images/blog/demenagement-international.png",
-    author: "Maxime Duval",
-    tags: ["affrètement", "commissionnement", "transport", "responsabilité", "contrat"],
+    author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}`,
+    tags: ["choisir", "déménageur", "critères", "assurance", "devis"],
     content: [
       {
         type: "paragraph",
         content:
-          "Vous contactez un transporteur pour expédier vos marchandises. Il vous propose un affrètement ou un commissionnement de transport. Ces deux prestations sont encadrées par des régimes juridiques distincts, avec des implications importantes pour la responsabilité en cas de litige.",
+          "Choisir un déménageur, c'est confier ses biens les plus précieux à des inconnus. Pour faire le bon choix, il ne suffit pas de comparer les prix. Voici les 7 critères que nous vous recommandons de vérifier.",
       },
       {
         type: "h2",
-        content: "L'affrètement : location d'un véhicule",
+        content: "1. L'inscription au registre des transporteurs",
       },
       {
         type: "paragraph",
         content:
-          "Dans l'affrètement, le transporteur met un véhicule à disposition du chargeur. C'est le chargeur (ou le fréteur) qui prend en charge l'organisation du transport. La responsabilité du voiturier s'applique pour les avaries ou pertes. Le contrat d'affrètement définit précisément le véhicule, l'itinéraire et les conditions.",
+          "Tout déménageur professionnel doit être inscrit au registre des transporteurs et commissionnaires de transport. Vérifiez son numéro d'inscription et son assurance responsabilité civile professionnelle.",
       },
       {
         type: "h2",
-        content: "Le commissionnement : organisation globale",
+        content: "Les 6 autres critères à vérifier",
       },
       {
         type: "list",
         items: [
-          "Le commissionnaire organise le transport en son nom propre",
-          "Il sélectionne et mandate les transporteurs exécutants",
-          "Il assume une responsabilité de résultat envers le chargeur",
-          "La CMR s'applique pour les transports internationaux",
-          "Il peut combiner plusieurs modes de transport (multimodal)",
-          "Il gère les formalités douanières le cas échéant",
+          "Assurance : vérifiez les plafonds de garantie et les exclusions (objets de valeur, électroménager)",
+          "Visite technique préalable : un bon déménageur se déplace pour évaluer le volume et les contraintes",
+          "Devis détaillé et écrit : méfiez-vous des devis téléphoniques ou trop vagues",
+          "Avis clients : consultez Google, Pages Jaunes et demandez des références récentes",
+          "Matériel : camions propres et récents, couvertures de protection, monte-meuble disponible",
+          "Réactivité : testez le temps de réponse à votre demande de devis",
+          "Transparence : pas de frais cachés, conditions d'annulation claires",
         ],
       },
       {
-        type: "h2",
-        content: "Que choisir selon votre situation ?",
-      },
-      {
-        type: "paragraph",
+        type: "quote",
         content:
-          `Pour un transport ponctuel avec un véhicule spécifique : optez pour l'affrètement. Pour une chaîne logistique complexe, multi-étapes ou multi-modes : préférez le commissionnement. Chez ${c.NOM_ENTREPRISE}, nous proposons les deux formules et vous conseillons sur la plus adaptée à votre besoin.`,
+          "Le devis le moins cher n'est jamais le meilleur critère. Ce qui compte, c'est la tranquillité d'esprit le jour J.",
+        author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}, Gérante de ${c.NOM_ENTREPRISE}`,
       },
     ],
   },
   {
     id: "b5",
-    slug: "port-hub-logistique",
-    title: `Le port de ${c.VILLE} : hub logistique et opportunité pour les transporteurs`,
+    slug: "garde-meuble-quand-comment",
+    title: "Garde-meuble : quand et comment l'utiliser lors d'un déménagement",
     excerpt:
-      "Container, roll-on roll-off, vrac solide : comprendre les flux portuaires pour mieux organiser vos transports pré et post-portuaires.",
-    category: "Logistique",
-    readTime: "7 min",
+      "Entre deux logements, pendant des travaux ou pour désencombrer : le garde-meuble est souvent la solution idéale. Mode d'emploi.",
+    category: "Conseils",
+    readTime: "6 min",
     date: "2024-12-10",
     featuredImage: "/images/blog/garde-meuble.png",
-    author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}`,
-    tags: ["port", "conteneur", "logistique", "import-export", "maritime"],
+    author: "Céline Faure",
+    tags: ["garde-meuble", "stockage", "entre-deux", "travaux", "conseils"],
     content: [
       {
         type: "paragraph",
         content:
-          `Les infrastructures portuaires de ${c.VILLE} représentent une opportunité et un défi logistique quotidien pour les transporteurs de ${c.REGION} comme ${c.NOM_ENTREPRISE}.`,
+          `Le garde-meuble est un allié précieux lors d'un déménagement. Chez ${c.NOM_ENTREPRISE}, nous proposons un service de stockage sécurisé à ${c.VILLE} pour répondre aux besoins les plus courants.`,
       },
       {
         type: "h2",
-        content: "Les principaux terminaux",
+        content: "Les situations où le garde-meuble s'impose",
       },
       {
         type: "list",
         items: [
-          "Terminal conteneurs principal : le plus grand du port",
-          "Terminal conteneurs secondaire",
-          "Terminal roulier : voitures, engins",
-          "Terminal multivrac : vrac solide (céréales, ciment, sucre)",
-          "Terminal pétrolier : hydrocarbures",
+          "Vente de votre bien avant d'avoir trouvé le suivant",
+          "Travaux dans votre nouveau logement (peinture, sol, cuisine)",
+          "Séparation ou divorce : besoin de temps pour s'organiser",
+          "Expatriation temporaire : ne pas se séparer de ses affaires",
+          "Désencombrement : gagner de l'espace dans un logement plus petit",
         ],
       },
       {
         type: "h2",
-        content: "Organiser vos transports pré et post-portuaires",
+        content: "Comment bien préparer ses affaires pour le stockage",
       },
       {
         type: "paragraph",
         content:
-          "La zone portuaire est soumise à des réglementations spécifiques : badges et accréditations pour les chauffeurs, créneaux de livraison imposés par les terminaux, règles de circulation interne. Notre implantation à proximité nous permet d'intervenir dans les meilleurs délais pour vos enlèvements et livraisons portuaires.",
+          "Nettoyez et séchez tous les meubles et textiles avant le stockage. Démontez les meubles pour gagner de la place. Utilisez des housses pour protéger les canapés et matelas. Évitez de stocker des denrées périssables ou des produits inflammables.",
       },
       {
         type: "quote",
         content:
-          `Être à ${c.VILLE}, c'est être au cœur des flux. Notre position géographique est notre premier avantage compétitif.`,
-        author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}, Gérant`,
+          `Notre garde-meuble à ${c.VILLE} est sec, ventilé et sous vidéosurveillance. Vos affaires sont en sécurité, et accessibles sur rendez-vous.`,
+        author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}, Gérante`,
       },
     ],
   },
   {
     id: "b6",
-    slug: "choisir-transporteur-routier",
-    title: "Comment choisir un transporteur routier : 8 critères décisifs",
+    slug: "demenagement-avec-enfants",
+    title: "Déménager avec des enfants : nos conseils pour une transition en douceur",
     excerpt:
-      "Licence, assurance, flotte, réactivité, traçabilité — les questions à poser avant de confier vos marchandises à un transporteur.",
+      "Un déménagement peut être stressant pour les enfants. Voici comment les préparer et les impliquer pour que tout se passe bien.",
     category: "Conseils",
-    readTime: "6 min",
+    readTime: "5 min",
     date: "2024-11-28",
     featuredImage: "/images/blog/demenagement-entreprise.jpeg",
-    author: "Maxime Duval",
-    tags: ["choisir-transporteur", "critères", "assurance", "fiabilité", "conseils"],
+    author: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}`,
+    tags: ["enfants", "famille", "transition", "conseils", "bien-être"],
     content: [
       {
         type: "paragraph",
         content:
-          "Confier vos marchandises à un transporteur, c'est lui accorder une responsabilité importante. Avant de signer un contrat ou de passer une commande, voici les 8 critères que nous recommandons de vérifier systématiquement.",
+          "Un déménagement est un grand changement, surtout pour les plus jeunes. Changer de maison, d'école, de quartier peut générer de l'anxiété. Voici nos conseils pour accompagner vos enfants dans cette transition.",
       },
       {
         type: "h2",
-        content: "1. La licence de transport et les certifications",
-      },
-      {
-        type: "paragraph",
-        content:
-          "Tout transporteur professionnel doit disposer d'une licence de transport intérieur (ou communautaire pour les transports UE). Vérifiez également s'il est certifié OEA (Opérateur Économique Agréé) pour les flux douaniers, et s'il est adhérent à un groupement professionnel reconnu (TLF, FNTR, etc.).",
-      },
-      {
-        type: "h2",
-        content: "Les 7 autres critères à évaluer",
+        content: "Avant le déménagement",
       },
       {
         type: "list",
         items: [
-          "Assurance responsabilité civile et assurance marchandises : montants et exclusions",
-          "État de la flotte : âge des véhicules, normes Euro (6 recommandé), entretien",
-          "Traçabilité : GPS temps réel, accès client aux informations de suivi",
-          "Réactivité : délai de réponse aux demandes de devis et aux urgences",
-          "Références clients : demandez des recommandations dans votre secteur",
-          "Stabilité financière : consultez les bilans déposés sur societe.com ou pappers.fr",
-          "Politique RSE : empreinte carbone, plans de réduction des émissions",
+          "Annoncez le déménagement le plus tôt possible et expliquez les raisons",
+          "Visitez le nouveau logement et le quartier ensemble si possible",
+          "Laissez-les participer : choisir la couleur de leur chambre, emballer leurs jouets",
+          "Préparez un carton spécial avec leurs objets préférés (doudou, jouets, livres)",
+          "Maintenez les routines habituelles le plus longtemps possible",
         ],
+      },
+      {
+        type: "h2",
+        content: "Le jour du déménagement",
+      },
+      {
+        type: "paragraph",
+        content:
+          "Si possible, confiez les enfants à un proche le jour J pour qu'ils ne soient pas au milieu de l'agitation. Sinon, préparez un coin calme avec des activités. Installez leur chambre en premier à l'arrivée pour qu'ils retrouvent leurs repères rapidement.",
       },
       {
         type: "quote",
         content:
-          "Le prix le moins cher n'est jamais le vrai critère. Ce qui compte, c'est le coût total d'une avarie ou d'un retard.",
-        author: "Maxime Duval, Responsable Commercial",
+          "On voit souvent des enfants stressés à l'arrivée. Dès que leur chambre est installée et qu'ils retrouvent leurs jouets, tout change. C'est pour ça qu'on installe toujours les chambres d'enfants en premier.",
+        author: "Alexandre Morin, Chef d'Équipe",
       },
     ],
   },
