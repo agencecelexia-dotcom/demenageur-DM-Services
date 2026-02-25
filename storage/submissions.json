@@ -1,0 +1,98 @@
+[
+  {
+    "id": "s-001",
+    "createdAt": "2026-02-17T09:14:00.000Z",
+    "firstName": "Marie",
+    "lastName": "Lefebvre",
+    "email": "m.lefebvre@gmail.com",
+    "phone": "06 12 34 56 78",
+    "serviceType": "transport_fret",
+    "moveVolume": "2 palettes",
+    "projectDescription": "Bonjour, je souhaite faire transporter 2 palettes de matériel de Votre Ville vers Commune Voisine 1 courant mars. Merci de me faire un devis.",
+    "read": false
+  },
+  {
+    "id": "s-002",
+    "createdAt": "2026-02-16T15:32:00.000Z",
+    "firstName": "Jean-Pierre",
+    "lastName": "Durand",
+    "email": "jpdurand@orange.fr",
+    "phone": "06 98 76 54 32",
+    "serviceType": "logistique",
+    "moveVolume": "Entrepôt 200m²",
+    "projectDescription": "Nous cherchons une solution logistique pour stocker et expédier nos produits depuis Votre Ville. Environ 200 références, flux entrant et sortant quotidien.",
+    "read": false
+  },
+  {
+    "id": "s-003",
+    "createdAt": "2026-02-15T11:05:00.000Z",
+    "firstName": "Sophie",
+    "lastName": "Martin",
+    "email": "sophie.martin@laposte.net",
+    "phone": "07 45 23 67 89",
+    "serviceType": "affretement",
+    "moveVolume": "Semi-remorque complète",
+    "projectDescription": "Besoin d'un semi-remorque pour un chargement ponctuel de Votre Ville vers Lyon. 24 tonnes de matériaux de construction. Flexible sur les dates en mars/avril.",
+    "read": true
+  },
+  {
+    "id": "s-004",
+    "createdAt": "2026-02-14T08:47:00.000Z",
+    "firstName": "Pierre",
+    "lastName": "Bonneau",
+    "email": "p.bonneau@sfr.fr",
+    "phone": "06 33 22 11 00",
+    "serviceType": "transport_europeen",
+    "moveVolume": "Lot complet",
+    "projectDescription": "Expédition de marchandises depuis Votre Ville vers le Benelux. 15 palettes de produits industriels. Besoin de gestion des formalités douanières.",
+    "read": true
+  },
+  {
+    "id": "s-005",
+    "createdAt": "2026-02-13T17:21:00.000Z",
+    "firstName": "Nathalie",
+    "lastName": "Rousseau",
+    "email": "n.rousseau@hotmail.fr",
+    "phone": "06 77 88 99 00",
+    "serviceType": "commissionnaire",
+    "moveVolume": "Multi-modes",
+    "projectDescription": "Organisation complète d'un acheminement multi-modes (route + mer) depuis Votre Ville vers Barcelone. Marchandise fragile, besoin d'un interlocuteur unique.",
+    "read": true
+  },
+  {
+    "id": "s-006",
+    "createdAt": "2026-02-12T13:55:00.000Z",
+    "firstName": "Lucas",
+    "lastName": "Petit",
+    "email": "lucas.petit@gmail.com",
+    "phone": "07 11 22 33 44",
+    "serviceType": "manutention",
+    "moveVolume": "Matériel lourd",
+    "projectDescription": "Besoin d'une équipe de manutention pour décharger un camion de machines industrielles (3 pièces, environ 2 tonnes chacune) sur notre site à Commune Voisine 2.",
+    "read": true
+  },
+  {
+    "id": "s-007",
+    "createdAt": "2026-02-11T10:30:00.000Z",
+    "firstName": "Émilie",
+    "lastName": "Garnier",
+    "email": "emilie.garnier@outlook.com",
+    "phone": "06 55 44 33 22",
+    "serviceType": "transport_fret",
+    "moveVolume": "5 palettes",
+    "projectDescription": "Transport de 5 palettes de produits alimentaires de Commune Voisine 1 vers Commune Voisine 3. Livraison souhaitée avant 7h du matin.",
+    "read": true
+  },
+  {
+    "id": "s-008",
+    "createdAt": "2026-02-10T14:12:00.000Z",
+    "firstName": "Alain",
+    "lastName": "Moreau",
+    "email": "a.moreau@wanadoo.fr",
+    "phone": "06 22 33 44 55",
+    "serviceType": "transport_fret",
+    "moveVolume": "Lot complet",
+    "projectDescription": "Transport régulier hebdomadaire entre Votre Ville et Marseille. Environ 20 tonnes par semaine de matériaux de construction. Recherche un partenaire fiable sur le long terme.",
+    "read": true
+  }
+]
