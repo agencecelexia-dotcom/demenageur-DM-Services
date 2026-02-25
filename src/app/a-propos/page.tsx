@@ -76,7 +76,7 @@ export default function AProposPage() {
             <p className="text-xs font-semibold tracking-[0.2em] uppercase text-accent-600 mb-4">Les experts</p>
             <h2 className="font-heading text-3xl md:text-4xl font-bold text-neutral-900">Notre Équipe</h2>
           </FadeUp>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {team.map((member, idx) => (
               <FadeUp key={member.id} delay={idx * 0.08}>
                 <div className="bg-white rounded-2xl overflow-hidden border border-neutral-200 shadow-sm">

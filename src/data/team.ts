@@ -9,7 +9,7 @@ export const team: TeamMember[] = [
     name: `${c.PRENOM_DIRIGEANT} ${c.NOM_DIRIGEANT}`,
     role: "Gérante",
     bio: `${c.PRENOM_DIRIGEANT} dirige ${c.NOM_ENTREPRISE} avec passion et exigence. Elle gère aussi bien l'organisation des déménagements, les devis et le suivi client que la stratégie de l'entreprise. Sa proximité avec les clients et sa connaissance de l'agglomération lyonnaise font la différence.`,
-    image: "/images/team/sophie-blanchard.png",
+    image: "/images/team/laurent-mercier.png",
     specialties: [
       "Direction et organisation",
       "Relation client",
@@ -33,7 +33,7 @@ export const team: TeamMember[] = [
     name: "Yannick Perrin",
     role: "Déménageur Référent",
     bio: `Yannick fait partie des premiers déménageurs de ${c.NOM_ENTREPRISE}. Spécialiste du montage-démontage et de la manutention d'objets fragiles ou volumineux, il intervient sur les chantiers les plus exigeants : pianos, œuvres d'art, mobilier ancien.`,
-    image: "/images/team/laurent-mercier.png",
+    image: "/images/team/sophie-blanchard.png",
     specialties: [
       "Manutention spécialisée",
       "Montage et démontage",
